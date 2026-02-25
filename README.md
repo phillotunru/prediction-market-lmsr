@@ -20,7 +20,7 @@ Requires Python 3.9+.
 pip install numpy
 ```
 
-##Run the Simulation
+## Run the Simulation
 
 From the repo root:
 ```
@@ -39,7 +39,7 @@ outputs/
 ```
 
 
-##Output Files
+## Output Files
 
 For each run name <run>:
 
@@ -93,7 +93,7 @@ Useful for:
 
 Full raw simulation output (includes arrays used to generate CSV exports).
 
-Parameters
+## Parameters
 
 Some key simulation parameters:
 
@@ -103,7 +103,7 @@ Some key simulation parameters:
 
 b: LMSR liquidity parameter (higher b generally means prices move less per trade)
 
-Notes
+## Notes
 
 - Ground truth P* is configured in the simulation settings (see src/team_a_phase1_simulation.py).
 
